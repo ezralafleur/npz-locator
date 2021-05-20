@@ -14,7 +14,7 @@
       <input type="text" name="street" placeholder="Street Address">
       <input type="text" style="display:inline" name="city" value="Nashville" size="9" readonly>
       <input type="text" style="display:inline" name="state" value="TN" size="2" readonly>
-      <input type="submit" name="street_submit" value="Submit" />
+      <input style="cursor:pointer;" type="submit" name="street_submit" value="Submit" />
    </form>
 
   <form id="bulk_form" style="max-width:50%;"action="npz-locator.php" method="post" enctype="multipart/form-data">
@@ -23,7 +23,7 @@
     <code>Unique ID, Street Address, City, State, Zip</code>
 
     <input type="file" id="file" name="bulk_file"/>
-    <input style="display:inline" id="bulk_submit" type="submit" name="bulk_submit" value="Submit"/>
+    <input style="display:inline; cursor:pointer;" id="bulk_submit" type="submit" name="bulk_submit" value="Submit"/>
     <p style="font-size:10pt;">Returns a .csv spreadsheet, the rightmost columns <code>npz</code> and <code>subzone</code> indicate if the address is in the promise zone and if so, which subzone it is in.</p>
   </form>
   <script>
