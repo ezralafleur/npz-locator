@@ -1,6 +1,6 @@
 <html !doctype>
 <head>
-  <title>Locate</title>
+  <title>NPZ Locator</title>
   <link rel="stylesheet" href="https://unpkg.com/mvp.css">
 </head>
 <body>
