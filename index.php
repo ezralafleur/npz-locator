@@ -9,7 +9,7 @@
 </header>
 <main>
   <section>
-   <form action="npz-locator.php" method="post">
+   <form action="index.php" method="post">
       <h3>Street Address Lookup</h3>
       <input type="text" name="street" placeholder="Street Address">
       <input type="text" style="display:inline" name="city" value="Nashville" size="9" readonly>
@@ -17,7 +17,7 @@
       <input style="cursor:pointer;" type="submit" name="street_submit" value="Submit" />
    </form>
 
-  <form id="bulk_form" style="max-width:50%;"action="npz-locator.php" method="post" enctype="multipart/form-data">
+  <form id="bulk_form" style="max-width:50%;"action="index.php" method="post" enctype="multipart/form-data">
     <h3>Bulk Address Lookup</h3>
     Must be file-type .csv, .txt, .dat, .xls, or .xlsx with the following format:</br>
     <code>Unique ID, Street Address, City, State, Zip</code>
